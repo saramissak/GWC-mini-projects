@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>Weather Map</title>
+	<link rel="stylesheet" href="https://openlayers.org/en/v4.6/css/ol.css" type="text/css">
+	<script src="https://openlayers.org/en/v4.6.4/build/ol.js" type="text/javascript"></script>
+	<script src="weather.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<textarea id="country-name" rows="1" cols="20">
+		Input a country
+	</textarea>
+
+	<button onclick="panToCountry()">Click me to go to a country!</button>
+
+	<button onclick="button()">Click me to go home!</button>
+
+	<button onclick="next()">Next</button>
+
+	<div id="map" class="map"></div>
+
+	<footer>
+		<p>This tutorial is based on code from: <a href="http://openlayers.org/en/latest/examples/animation.html">Open Layers View Animation</a></p>
+	</footer>
+</body>
+</html>

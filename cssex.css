@@ -1,0 +1,13 @@
+a.test{
+  color: purple;
+}
+
+p:hover{
+  color:red;
+  transition: color 1s;
+}
+
+h3:hover{
+  color: purple;
+  transition: color 1s;
+}
